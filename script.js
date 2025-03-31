@@ -9,4 +9,4 @@ function countDownUpdate(){
     let val = "LIVE IN: "+days.toString().padStart(2,"0")+"days "+hours.toString().padStart(2,"0")+"hours "+minutes.toString().padStart(2,"0")+"minutes "+seconds.toString().padStart(2,"0")+"seconds."
     document.getElementById("countdown").innerHTML = val
 }
-setInterval(countDownUpdate,1000)
+setInterval(countDownUpdate,1000);
