@@ -19,6 +19,7 @@ body{
     background-color: red;
     border: 5px rgb(161, 0, 0) solid;
     width: 100%;
+    height: max-content;
     text-align: center;
     box-sizing: border-box;
 }
@@ -57,4 +58,51 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 800;
     font-size: 60px;
+}
+#regL{
+    text-decoration: none;
+    margin: 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    background-color: blue;
+    border-radius: 5px;
+    padding: 20px;
+    font-weight: 700;
+    animation: blink .5s infinite alternate;
+}
+
+@keyframes blink {
+    0%{
+        color: black;
+    }
+    100%{
+        color: white;
+        box-shadow: 0 0 30px rgb(85, 193, 255);
+    }
+}
+
+input, #regD button{
+    padding: 10px;
+    color: white;
+    background-color: rgb(43, 43, 43);
+    border: 5px rgb(30, 30, 30) solid;
+    border-radius: 10px;
+    margin: 4px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+#regD button{
+    background-color: rgb(39, 118, 255);
+}
+#titleReg{
+    color: rgb(255, 247, 232);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: 1000;
+    text-align: center;
 }
