@@ -83,18 +83,20 @@ body{
 }
 
 input, #regD button{
-    padding: 10px;
+    padding: 15px;
     color: white;
     background-color: rgb(43, 43, 43);
     border: 5px rgb(30, 30, 30) solid;
     border-radius: 10px;
-    margin: 4px;
-    font-size: 25px;
+    margin-top: 10px;
+    font-size: 22px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
     display: block;
     width: 100%;
     box-sizing: border-box;
+    transition: .6s;
+    border: 2px transparent solid;
 }
 #regD button{
     background-color: rgb(39, 118, 255);
@@ -105,4 +107,13 @@ input, #regD button{
     font-size: 50px;
     font-weight: 1000;
     text-align: center;
+}
+
+input:hover{
+    border: 2px white solid;
+    box-shadow: 0 0 7px rgb(39,188,255);
+}
+
+#regD button:hover{
+    box-shadow: 0 0 10px rgb(4, 129, 255);
 }
