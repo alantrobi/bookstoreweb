@@ -1,6 +1,6 @@
 function countDownUpdate(){
     let currentDate = new Date();
-    let upcomingDate = new Date('2025-04-05');
+    let upcomingDate = new Date('2025-04-19');
     let timeDiff = upcomingDate - currentDate;
     let seconds = Math.floor((timeDiff / 1000) % 60);
     let minutes = Math.floor((timeDiff / (1000 * 60)) % 60);
